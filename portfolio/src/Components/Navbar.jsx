@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <nav className="navbar">
-        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation menu">
           ☰
         </div>
 

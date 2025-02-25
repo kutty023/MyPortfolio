@@ -1,53 +1,53 @@
+import know_more from '../assets/know_more.png';
 
 function Project(){
     const projectsData = [
         {
-            title : "Project 1",
-            description : "Description of Project 1",
+            title : "Project 1", desc : "Description of Project 1", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 2",
-            description : "Description of Project 2",
+            title : "Project 2", desc : "Description of Project 2", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 3",
-            description : "Description of Project 3",
+            title : "Project 3", desc : "Description of Project 3", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 4",
-            description : "Description of Project 4",
+            title : "Project 4", desc : "Description of Project 4", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 5",
-            description : "Description of Project 5",
+            title : "Project 5", desc : "Description of Project 5", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 6",
-            description : "Description of Project 6",
+            title : "Project 6", desc : "Description of Project 6", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 7",
-            description : "Description of Project 7",
+            title : "Project 7", desc : "Description of Project 7", github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 8",
-            description : "Description of Project 8",
+            title : "Project 8", desc : "Description of Project 8", github : "https://github.com/kutty023/MyPortfolio"
         },
     ];
     return (
-        <>
+        <div className="container">
             <section className='projects'>
-                <h1 id="heading"><u> My Projects </u></h1>
+                <h1 id="proj-heading">
+                    <u> 
+                        <span className="highlight-text">My Projects</span>  
+                    </u>
+                </h1>
                 <div id="projects-sec">
                     {projectsData.map((project, index) => (
-                        <div key={index} className="project-section">
+                        <article key={index} className="project-item">
                             <h4>{project.title}</h4>
-                            <p>{project.description}</p>
-                        </div>
+                            <p>{project.desc}</p>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="know-more-btn">
+                                <img src={know_more} alt="Know more" /> 
+                            </a>
+                        </article>
                     ))}
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 
