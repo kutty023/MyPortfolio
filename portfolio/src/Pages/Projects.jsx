@@ -1,3 +1,4 @@
+import know_more from '../assets/know_more.png';
 
 function Project(){
     const projectsData = [
@@ -40,7 +41,7 @@ function Project(){
                             <h4>{project.title}</h4>
                             <p>{project.desc}</p>
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="know-more-btn">
-                                <u>Know More</u> 
+                                <img src={know_more} alt="Know more" /> 
                             </a>
                         </article>
                     ))}

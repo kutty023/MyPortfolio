@@ -1,6 +1,12 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../Styles/Contact.css";
+import insta from "../assets/insta.png";
+import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.png";
+import twitter from "../assets/twitter.png";
+import email from "../assets/email.png";
+import phone from "../assets/phonecall.png";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -52,10 +58,10 @@ const Contact = () => {
     };
 
     const socialMediaLinks = [
-        { id: "insta-png", alt: "Instagram", src: "your-instagram-icon.png", link: "https://instagram.com" },
-        { id: "github-png", alt: "GitHub", src: "your-github-icon.png", link: "https://github.com" },
-        { id: "linkedin-png", alt: "LinkedIn", src: "your-linkedin-icon.png", link: "https://linkedin.com" },
-        { id: "twitter-png", alt: "Twitter", src: "your-twitter-icon.png", link: "https://twitter.com" },
+        { id: "insta-png", alt: "Instagram", src: insta, link: "https://instagram.com" },
+        { id: "github-png", alt: "GitHub", src: github, link: "https://github.com" },
+        { id: "linkedin-png", alt: "LinkedIn", src: linkedin, link: "https://linkedin.com" },
+        { id: "twitter-png", alt: "Twitter", src: twitter, link: "https://twitter.com" },
     ];
 
     return (
@@ -120,11 +126,11 @@ const Contact = () => {
                     <div className="reach-section">
                         <h4>Reach out to me</h4>
                         <div id="email-png">
-                            <img src="" alt="email" />
+                            <img src={email} alt="email" />
                             <p>arthiowr2024@gmail.com</p>
                         </div>
                         <div id="phone-number-png">
-                            <img src="" alt="phno" />
+                            <img src={phone} alt="phno" />
                             <p>9108161367</p>
                         </div>
 
