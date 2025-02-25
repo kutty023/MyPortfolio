@@ -1,41 +1,70 @@
-.about {
-    padding: 50px 20px;
-    background-color: #f4f4f4; /* Light background for the section */
-    text-align: center; /* Center the section content */
-  }
-  
-  .about h2 {
-    font-size: 2rem; /* Main heading font size */
-    margin-bottom: 20px; /* Spacing below the heading */
-  }
-  
-  .about-content {
-    display: grid; /* Use grid for layout */
-    grid-template-columns: 1fr 1fr; /* Two columns for image and text */
-    align-items: center; /* Center items vertically */
-    max-width: 1200px; /* Set a max width */
-    margin: 0 auto; /* Center the grid */
-    gap: 20px; /* Gap between columns */
-  }
-  
-  .profile-pic {
-    width: 200px; /* Width for the profile picture */
-    height: 200px; /* Height for the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-  }
-  
-  .about-text {
-    text-align: left; /* Align text to the left for readability */
-  }
-  
-  .about-text h3 {
-    font-size: 1.5rem; /* Subheading font size */
-    margin-bottom: 10px; /* Spacing below the subheading */
-  }
-  
-  .about-text p {
-    font-size: 1rem; /* Paragraph font size */
-    line-height: 1.5; /* Line height for readability */
-    margin-bottom: 15px; /* Spacing below paragraphs */
-  }
-  
+.about{
+    color: #ffffff;
+    width: 80vw;
+}
+
+#abt-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+#About-sec{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-second-image{
+    background: #080D15;
+    box-shadow: 0px 0px 10px 10px #080D15;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-second-image>img{
+    width: 300px;
+    height: 350px;
+}
+
+.about-content{
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.about-content>h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+#download-btn{
+    border-radius: 50px;
+    width: 150px;
+    color: #021319;
+    background: #F4B675;
+    height: 2rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+@media (max-width: 680px) {
+    .about{
+        width: 90vw;
+    }
+
+    #About-sec{
+        flex-direction: column;
+    }
+
+    .my-second-image{
+        margin-bottom: 2rem;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+}

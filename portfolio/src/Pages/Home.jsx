@@ -1,19 +1,22 @@
-import About from '../Components/About';
-import Services from '../Components/Services';
-import Skills from '../Components/Skills';
-import Projects from '../Components/Projects';
-import Contact from '../Components/Contact';
-import Resume from '../Components/Resume';
+import myFirstProfileImg from '../assets/img1.png';
+
+import '../Styles/Home.css';
 
 function Home() {
   return (
     <>
-    <About />
-    <Services />
-    <Skills />
-    <Resume />
-    <Projects />
-    <Contact />
+    <div className='container'>
+      <section className='Home'>
+        <div className='my-first-image'>
+          <img src={myFirstProfileImg} alt="prof-img" />
+        </div>
+        <div className="home-content">
+          <h3>Hi, I'm </h3> 
+          <h1> ARTHI R</h1>
+          <p>Full-Stack Developer with Design Skills</p>
+        </div>
+      </section>
+      </div>
     </>
   )
 }
