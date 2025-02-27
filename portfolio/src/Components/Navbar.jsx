@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../Styles/Navbar.css';
+import '../Styles/Global.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation menu">
           ☰
         </div>
-
+        
         <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
           <li>
             <NavLink to="/" end activeClassName="active">Home</NavLink> 

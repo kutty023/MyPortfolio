@@ -1,40 +1,47 @@
 .navbar-container{
-    width: 100%;
-    background-color: #02131A;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .navbar {
-    width: 80vw;
-    padding: 20px 0px;
+    padding: 15px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 50px;
 }
 
 .navbar-links {
+    width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70vw;
 }
 
-.navbar-links li, .navbar-links li a {
+.navbar-links li{
     list-style-type: none;
+}
+
+.navbar-links li a{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-size: large;
+    transition: color 0.2s ease-in-out;
 }
 
 .navbar-links .active {
-    color: #F4B675;
+    color: var(--secondary-color);
 }
 
 .hamburger {
     display: none;
-    font-size: 30px;
-    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
     cursor: pointer;
+    padding-left: 20px;
 }
 
 /* Mobile Responsiveness */
@@ -42,6 +49,8 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
+        height: max-content;
     }
 
     .hamburger {
@@ -51,19 +60,19 @@
     .navbar-links {
         display: none;
         flex-direction: column;
-        width: 100%;
-        background: #02131A;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        padding: 10px 20px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    
+    .navbar-links li {
+        padding: 10px 0;
+    }
+
+    .navbar-links a:hover{
+        color: var(--secondary-color);
     }
 
     .navbar-links.open {
         display: flex;
-    }
-
-    .navbar-links li {
-        padding: 10px 0;
     }
 }

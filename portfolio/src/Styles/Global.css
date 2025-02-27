@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --primary-color: #02131A; /* navbar bg */
+    --secondary-color: #F4B675; /* activer text, hover, header*/
+    --background-color: #16242C; /*bg, divs bg, etx*/
+    --text-color: #ffffff; /* text color */
+    --secondary-text-color: #898E90; /*sub text color, lines*/
+    --highlight-text-color: #B0865A; /*highlight text color*/
+    --max-width: 1200px;
+    --font-famil: 'Inter', sans-serif; 
+}
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: #16242C;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
 }
 
+/* Global conatiner */
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: var(--max-width);
+    margin: auto;
     padding: 0 20px;
+    background: var(--background-color);
 }
