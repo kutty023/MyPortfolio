@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <>
       <div className="container">
-        <section id="skills">
+        <section className="skills">
           <h1 className="heading">
             <u>
               <span className="highlight-text">Skills</span>
