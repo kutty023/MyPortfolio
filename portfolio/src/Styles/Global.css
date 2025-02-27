@@ -8,7 +8,7 @@
     --secondary-text-color: #898E90; /*sub text color, lines*/
     --highlight-text-color: #B0865A; /*highlight text color*/
     --max-width: 1200px;
-    --font-famil: 'Inter', sans-serif; 
+    --font-family: 'Inter', sans-serif; 
 }
 
 *{
@@ -18,7 +18,7 @@
 }
 
 body{
-    background: var(--background-color);
+    /* background: var(--background-color); */
     color: var(--text-color);
     font-family: var(--font-family);
 }
