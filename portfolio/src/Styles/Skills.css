@@ -50,7 +50,6 @@
 
 @media (max-width: 768px) {
     .skills-sec {
-        padding-left: 0;
         grid-template-columns: repeat(2, 1fr);
     }
     
