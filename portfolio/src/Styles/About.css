@@ -1,3 +1,68 @@
 #download-btn{
     padding: 10px 25px;
 }
+
+#about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.profile-image2{
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    box-shadow: 0px 0px 5px 5px var(--primary-color);
+}
+
+.profile-image2>img{
+    max-width: 300px;
+    height: auto;
+}
+
+.about-content{
+    padding: 0px 40px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.language-skills {
+    padding: 20px 0px;
+}
+
+
+@media (max-width:680px){
+    #about-sec{
+        flex-direction: column;
+        padding: 1rem 0px;
+    }
+
+    .profile-image2{
+        width: fit-content;
+        margin: 1rem;
+    }
+
+    .profile-image2>img{
+        max-width: 150px;
+        height: auto;
+    }
+
+    .about-content{
+        font-size: 12px;
+    }
+
+    #download-btn{
+        font-size: 10px;
+        border-radius: 100px;
+        cursor: pointer;
+        padding: 5px 15px;
+        display: block;
+        justify-self: center;
+    }
+}

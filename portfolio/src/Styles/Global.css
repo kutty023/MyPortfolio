@@ -39,3 +39,12 @@ body{
     border-radius: 100px;
     cursor: pointer;
 }
+
+.heading{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.highlight-text{
+    color: var(--secondary-color);
+}
