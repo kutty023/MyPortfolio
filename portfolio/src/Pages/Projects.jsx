@@ -1,4 +1,5 @@
 import know_more from '../assets/know_more.png';
+import '../Styles/Global.css'
 
 function Project(){
     const projectsData = [

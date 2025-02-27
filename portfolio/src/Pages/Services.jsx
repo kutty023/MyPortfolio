@@ -1,3 +1,5 @@
+import '../Styles/Global.css'
+
 
 function Services(){
     const servicesData = [

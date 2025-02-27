@@ -1,12 +1,13 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import "../Styles/Contact.css";
 import insta from "../assets/insta.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import twitter from "../assets/twitter.png";
 import email from "../assets/email.png";
 import phone from "../assets/phonecall.png";
+import "../Styles/Contact.css";
+import '../Styles/Global.css'
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -114,7 +115,7 @@ const Contact = () => {
                                 onChange={handleChange}
                             ></textarea>
 
-                            <button type="submit" disabled={loading}>
+                            <button id="send-btn" type="submit" disabled={loading}>
                                 {loading ? "Sending..." : "Send"}
                             </button>
                         </form>
