@@ -52,7 +52,6 @@
     .skills-sec {
         grid-template-columns: repeat(2, 1fr);
     }
-    
     .skill-name{
         font-size: 10px;
     }
