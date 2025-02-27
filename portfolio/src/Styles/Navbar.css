@@ -60,12 +60,15 @@
     .navbar-links {
         display: none;
         flex-direction: column;
-        padding: 10px 0px;
         text-align: center;
     }
     
     .navbar-links li {
         padding: 10px 0;
+    }
+    
+    .navbar-links li a{
+        font-size: 15px;
     }
 
     .navbar-links a:hover{

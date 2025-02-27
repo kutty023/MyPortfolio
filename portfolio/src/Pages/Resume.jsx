@@ -1,3 +1,5 @@
+import '../Styles/Global.css'
+
 
 function Resume(){
     const experienceData = [

@@ -30,3 +30,12 @@ body{
     padding: 0 20px;
     background: var(--background-color);
 }
+
+#download-btn, #send-btn{
+    background: var(--secondary-color);
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
