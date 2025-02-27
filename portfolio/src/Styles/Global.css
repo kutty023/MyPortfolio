@@ -48,3 +48,24 @@ body{
 .highlight-text{
     color: var(--secondary-color);
 }
+
+.sub-heading{
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.card-content{
+    font-size: 13px;
+}
+
+@media (max-width: 680px) {
+    .sub-heading{
+        font-size: 13px;
+    }
+    
+    .card-content{
+        font-size: 10px;
+    }
+}

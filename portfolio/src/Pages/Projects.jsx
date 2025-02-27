@@ -1,5 +1,6 @@
 import know_more from '../assets/know_more.png';
-import '../Styles/Global.css'
+import '../Styles/Global.css';
+import '../Styles/Project.css';
 
 function Project(){
     const projectsData = [
@@ -38,11 +39,11 @@ function Project(){
                 </h1>
                 <div id="projects-sec">
                     {projectsData.map((project, index) => (
-                        <article key={index} className="project-item">
-                            <h4>{project.title}</h4>
-                            <p>{project.desc}</p>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="know-more-btn">
-                                <img src={know_more} alt="Know more" /> 
+                        <article key={index} className="project-card">
+                            <h4 className='sub-heading'>{project.title}</h4>
+                            <p className='card-content'>{project.desc}</p>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" >
+                                <img id="know-more-btn" src={know_more} alt="Know more" /> 
                             </a>
                         </article>
                     ))}

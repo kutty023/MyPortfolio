@@ -18,6 +18,7 @@
     align-items: center;
     background: var(--primary-color);
     box-shadow: 0px 0px 5px 5px var(--primary-color);
+    margin-left: 3rem;
 }
 
 .profile-image2>img{

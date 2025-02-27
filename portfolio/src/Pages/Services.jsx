@@ -1,5 +1,5 @@
 import '../Styles/Global.css'
-
+import '../Styles/Services.css'
 
 function Services(){
     const servicesData = [
@@ -23,8 +23,8 @@ function Services(){
             <div id="service-sec">
               {servicesData.map((service, index) => (
                 <article key={index} className="service-card">
-                  <h4>{service.title}</h4>
-                  <p>{service.description}</p>
+                  <h4 className='sub-heading'>{service.title}</h4>
+                  <p className='card-content'>{service.description}</p>
                 </article>
               ))}
             </div>
