@@ -1,5 +1,5 @@
 import '../Styles/Global.css'
-
+import '../Styles/Resume.css'
 
 function Resume(){
     const experienceData = [
@@ -66,7 +66,7 @@ function Resume(){
                                     <div key={id} className="experience-item">
                                         <h4>{title}</h4>
                                         <p>{company}</p>
-                                        <p>{date_and_location}</p>
+                                        <p className="date">{date_and_location}</p>
                                         <p>{desc}</p>
                                     </div>
                                 ))}
@@ -76,8 +76,8 @@ function Resume(){
                             {educationData.map(({id, title, school, date_and_location, cgpa}) => (
                                     <div key={id} className="education-item">
                                         <h4>{title}</h4>
-                                        <h4>{school}</h4>
-                                        <p>{date_and_location}</p>
+                                        <p>{school}</p>
+                                        <p className="date">{date_and_location}</p>
                                         <p>{cgpa}</p>
                                     </div>
                                 ))}
