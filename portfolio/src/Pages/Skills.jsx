@@ -1,5 +1,5 @@
 import '../Styles/Global.css'
-
+import '../Styles/Skills.css'
 
 const Skills = () => {
   const skillsData = {
