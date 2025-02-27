@@ -10,7 +10,7 @@ const Skills = () => {
     <>
       <div className="container">
         <section id="skills">
-          <h1 id="skills-heading">
+          <h1 className="heading">
             <u>
               <span className="highlight-text">Skills</span>
               </u>

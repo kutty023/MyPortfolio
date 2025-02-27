@@ -54,7 +54,7 @@ function Resume(){
         <>
             <div className="container">
                 <section className='resume'>
-                    <h1 id="res-heading">
+                    <h1 className="heading">
                         <u> 
                             <span className="highlight-text"> Resume </span>  
                         </u>

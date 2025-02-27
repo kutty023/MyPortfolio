@@ -15,7 +15,7 @@ function Services(){
         <>
         <div className="container">
           <section className="services" >
-            <h1 id="services-heading">
+            <h1 className="heading">
               <u>
                 <span className="highlight-text"> Services </span> 
               </u>
