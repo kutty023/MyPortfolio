@@ -3,12 +3,14 @@ import '../Styles/Services.css'
 
 function Services(){
     const servicesData = [
-      { title: "Web Development", description: "Building responsive websites with modern technologies." },
-      { title: "UI/UX Design", description: "Designing user-friendly interfaces with Figma and Adobe XD." },
-      { title: "Mobile App Development", description: "Creating mobile applications using React Native and Flutter." },
-      { title: "SEO", description: "Optimizing websites to improve search engine visibility." },
-      { title: "IAM", description: "Managing user identities and their access to resources." },
-      { title: "Cybersecurity", description: "Protecting systems, networks, and programs from digital attacks." },
+      { title: "Full-Stack Developer", description: "Designed, developed, and maintained web applications from front to back" },
+      { title: "MERN Stack Developer", description: "Creating mobile applications using React Native and Flutter." },
+      { title: "Front-End Developer", description: "Creating user interfaces and experiences" },
+      { title: "UI/UX Design", description: "Specialization in MongoDB, Express.js, React.js, and Node.js development." },
+      { title: "Web Application Security Analyst", description: "Identifying and mitigating security vulnerabilities." },
+      { title: "CCNA ", description: "Cisco Certified Network Associate" },
+      { title: "Technical Mentor ", description: "Guiding and trained aspiring developers" },
+      { title: "Coding Instructor ", description: "Teaching programming and web development skills." },
     ];
     
       return (

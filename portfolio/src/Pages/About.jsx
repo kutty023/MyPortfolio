@@ -27,7 +27,9 @@ const About = () => {
                 <img src={proImg} alt="Profile Image" />
             </div>
             <div className="about-content">
-              <p className="about-description" >Web development professional with a strong track record in mentoring, project leadership, Cybersecurity and technical expertise. Skilled in full-stack development, various programming languages, and security practices. Committed to continuous learning and contributing to advanced projects in both fields.</p>
+              <p className="about-description" >
+              Results-oriented Full-Stack Developer with a strong foundation in cybersecurity principles (CCNA certified). Proven ability to build robust and user-friendly web applications using the MERN stack, coupled with a keen understanding of network security and ethical hacking practices. Adept at problem-solving and dedicated to delivering high-quality, efficient solutions. Proficient in Python and committed to continuous learning, with a focus on building innovative and impactful web solutions that bridge the gap between development and security.
+              </p>
               <p className="language-skills"><strong>Languages : &nbsp; </strong>English, Kannada, Tamil, Hindi, Telugu </p>
               <button id='download-btn' onClick={handleDownload}>Download CV</button>
             </div>
