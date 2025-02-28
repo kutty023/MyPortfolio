@@ -53,7 +53,7 @@ function Resume(){
     return (
         <>
             <div className="container">
-                <section className='resume'>
+                <section id='resume'>
                     <h1 className="heading">
                         <u> 
                             <span className="highlight-text"> Resume </span>  
