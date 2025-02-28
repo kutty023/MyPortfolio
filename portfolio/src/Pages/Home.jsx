@@ -5,7 +5,7 @@ import '../Styles/Home.css';
 function Home() {
   return (
     <div className='container'>
-      <section className='home'>
+      <section id='home'>
         <div className='profile-image1'>
           <img src={myFirstProfileImg} alt="prof-img" />
         </div>

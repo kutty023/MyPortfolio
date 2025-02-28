@@ -1,4 +1,4 @@
-.home{
+#home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 680px) {
-    .home{
+    #home{
         height: auto;
         padding: 50px 20px;
         background-size: cover;
