@@ -5,50 +5,48 @@ function Resume(){
     const experienceData = [
         {
           id: 1, 
-          title: "Web Developer", 
-          company: "ABC Company",
+          title: "AICTE Virtual Internship - Cybersecurity Program", 
+          company: "Edunet Foundation",
           date_and_location: "2019 - 2021, Bangalore",
-          desc: "Worked as a web developer for 2 years, gaining experience in various projects."
+          desc: [
+            " - Gaining hands-on experience in cybersecurity concepts, ethical hacking, and network security.", <br />,
+            " - Working on real-world security projects, focusing on steganography, penetration testing, and threat mitigation."]
         },
         {
           id: 2,
-          title: "Full-Stack Developer",
-          company: "XYZ Tech",
-          date_and_location: "2021 - Present, Bangalore",
-          desc: "Currently working as a full-stack developer, gaining expertise in full-stack development."
+          title: "Technical Mentor [FullStack developer]",
+          company: "Kalvium (RV University)",
+          date_and_location: " May 2023 - Aug 2024, Bangalore",
+          desc: [
+            " - Spearheaded 100+ live sessions and workshops, empowering students to build robust web applications and achieve a 90% improvement in project completion rates.",<br />,
+            " - Evaluated 1500+ assignments, ensuring adherence to coding standards and improving code quality by 95%.",<br />,
+            " - Trained 15+ technical mentors, enhancing team efficiency by 80% and boosting student satisfaction through streamlined mentoring practices.",<br />,
+            " - Mentored 120+ students in Data Structures & Algorithms (DSA) and full-stack development, facilitating skill-building in Python, JavaScript, React.js, Node.js, and MongoDB."
+
+          ]
         },
         {
           id: 3,
-          title: "Front-End Developer",
-          company: "DEF Solutions",
-          date_and_location: "2018 - 2019, Bangalore",
-          desc: "Worked as a front-end developer for a year, contributing to multiple UI projects."
+          title: "Technical Mentor Intern [Front-end developer]",
+          company: "Kalvium",
+          date_and_location: " Mar 2023 - April 2023, Coimbatore",
+          desc:[
+            " - Guided 25+ students in front-end development, achieving an 85% improvement in project quality and code maintainability.", <br />,
+            " - Engineered a WhatsApp automation system using Google Apps Script, streamlining communication workflows and reducing response times by 70%", <br />,
+            " - Led Scrum ceremonies for a team of 10 interns, ensuring 100% on-time project delivery and fostering a culture of collaboration and accountability."
+          ]
         }
       ];
     
-      const educationData = [
-        {
-          id: 1,
-          title: "B.Tech in Computer Science",
-          school: "XYZ University",
-          date_and_location: "2015 - 2019, Bangalore",
-          cgpa: "8.5 CGPA"
-        },
-        {
-          id: 2,
-          title: "Higher Secondary Education",
-          school: "ABC School",
-          date_and_location: "2013 - 2015, Bangalore",
-          cgpa: "90%"
-        },
-        {
-          id: 3,
-          title: "Secondary Education",
-          school: "DEF School",
-          date_and_location: "2012 - 2013, Bangalore",
-          cgpa: "95%"
-        }
-      ];
+    const educationData = [
+      {
+        id: 1,
+        title: "B.Tech in Computer Science Engineering ",
+        school: "REVA University",
+        date_and_location: "2019 - 2023, Bangalore",
+        cgpa: "8.42 CGPA"
+      }
+    ];
 
     return (
         <>
@@ -67,7 +65,7 @@ function Resume(){
                                         <h4>{title}</h4>
                                         <p>{company}</p>
                                         <p className="date">{date_and_location}</p>
-                                        <p>{desc}</p>
+                                        <p id='exp-discription'>{desc}</p>
                                     </div>
                                 ))}
                         </div>

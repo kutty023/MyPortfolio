@@ -5,7 +5,6 @@
 
 #resume-sec {
     width: 100%;
-    display: flex;
     justify-content: center;
     padding: 3rem 2rem;
     margin: 0 auto;
@@ -21,6 +20,10 @@
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+.education h3{
+    padding-top: 40px;
 }
 
 .experience-item,
@@ -40,6 +43,11 @@
 .experience-item p,
 .education-item p {
     font-size: 1rem;
+    padding: 5px 0px;
+}
+
+.experience-item #exp-discription{
+    line-height: 1.5rem;
 }
 
 .date{
@@ -48,20 +56,20 @@
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 680px) {
     #resume-sec {
         flex-direction: column;
     }
 
     .experience,
     .education {
-        width: 100%;
+        width: 60vw;
         padding-bottom: 2rem;
     }
 
     .experience h3,
     .education h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .experience-item h4,
@@ -71,7 +79,7 @@
 
     .experience-item p,
     .education-item p {
-        font-size: 0.8rem;
+        font-size: 10px;
     }
 }
 
