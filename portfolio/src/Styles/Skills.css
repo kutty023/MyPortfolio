@@ -58,9 +58,6 @@
 }
 
 @media (max-width: 680px) {
-    .skills-sec {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .skill-name{
         font-size: 10px;
     }
@@ -69,8 +66,8 @@
     }
     
     .skill-item{
-        width: 100px;
-        padding: 0;
+        padding: 10px;
+        font-size: 10px;
     }
 }
 
