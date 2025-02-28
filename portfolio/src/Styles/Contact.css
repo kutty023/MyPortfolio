@@ -94,7 +94,7 @@
         border: none;
     } 
     .write-section>form>textarea, .write-section>form>input{
-        width: 100%;
+        width: 70vw;
     }
     #email-png{
         padding-bottom: 5px;

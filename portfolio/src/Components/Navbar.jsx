@@ -1,10 +1,32 @@
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import '../Styles/Navbar.css';
 import '../Styles/Global.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() =>{
+    const sections = document.querySelectorAll("section")
+
+    const observer = new IntersectionObserver(
+      (entries) =>{
+        entries.forEach((entry) =>{
+          if(entry.isIntersecting){
+            setActiveSection(entry.target.id)
+          }
+        })
+      },
+      {rootMargin: "40px 0px -40% 0px", threshold: 0.3}
+    )
+    sections.forEach((section) => observer.observe(section));
+    return() => sections.forEach((section) => observer.unobserve(section));
+  }, [])
+
+  const handleSetActive = (section) => {
+    setActiveSection(section);
+    setMenuOpen(false);
+  };
 
   return (
     <div className='navbar-container'>
@@ -15,25 +37,25 @@ const Navbar = () => {
         
         <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
           <li>
-            <NavLink to="/" end activeClassName="active">Home</NavLink> 
+            <a href="#" className={activeSection === "home" ? "active" : ""} onClick={() => handleSetActive("home")}>Home</a> 
           </li>
           <li>
-            <NavLink to="/about" activeClassName="active">About</NavLink>
+            <a href="#about" className={activeSection === "about" ? "active" : ""} onClick={() => handleSetActive("about")}>About</a>
           </li>
           <li>
-            <NavLink to="/services" activeClassName="active">Services</NavLink>
+            <a href="#services" className={activeSection === "services" ? "active" : ""} onClick={() => handleSetActive("services")}>Services</a>
           </li>
           <li>
-            <NavLink to="/skills" activeClassName="active">Skills</NavLink>
+            <a href="#skills" className={activeSection === "skills" ? "active" : ""} onClick={() => handleSetActive("skills")}>Skills</a>
           </li>
           <li>
-            <NavLink to="/resume" activeClassName="active">Resume</NavLink>
+            <a href="#resume" className={activeSection === "resume" ? "active" : ""} onClick={() => handleSetActive("resume")}>Resume</a>
           </li>
           <li>
-            <NavLink to="/projects" activeClassName="active">Projects</NavLink>
+            <a href="#projects" className={activeSection === "projects" ? "active" : ""} onClick={() => handleSetActive("projects")}>Projects</a>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+            <a href="#contact" className={activeSection === "contact" ? "active" : ""} onClick={() => handleSetActive("contact")}>Contact</a>
           </li>
         </ul>
       </nav>

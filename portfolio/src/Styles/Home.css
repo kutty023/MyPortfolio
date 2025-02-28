@@ -71,4 +71,8 @@
     #home-designation{
         font-size: 13px;
     }
+
+    #about-container{
+        padding-top: 50px;
+    }
 }
