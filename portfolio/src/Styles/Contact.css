@@ -1,8 +1,4 @@
-#send-btn{
-    padding: 5px 20px;
-}
-
-.contact{
+#contact{
     width: 90%;
     justify-self: center;
 }
@@ -59,6 +55,7 @@
 
 #send-btn{
     margin: 15px 0px;
+    padding: 5px 20px;
 }
 
 #email-png ,#phone-number-png{
@@ -97,7 +94,7 @@
         border: none;
     } 
     .write-section>form>textarea, .write-section>form>input{
-        width: 100%;
+        width: 70vw;
     }
     #email-png{
         padding-bottom: 5px;

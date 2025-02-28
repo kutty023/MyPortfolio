@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    position: fixed;
 }
 .navbar {
     padding: 15px 0px;
@@ -31,9 +32,10 @@
     transition: color 0.2s ease-in-out;
 }
 
-.navbar-links .active {
+.navbar-links li a.active{
     color: var(--secondary-color);
 }
+
 
 .hamburger {
     display: none;

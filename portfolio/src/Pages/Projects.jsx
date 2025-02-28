@@ -31,7 +31,7 @@ function Project(){
     ];
     return (
         <div className="container">
-            <section className='projects'>
+            <section id='projects'>
                 <h1 className="heading">
                     <u> 
                         <span className="highlight-text">My Projects</span>  
