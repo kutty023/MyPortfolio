@@ -122,3 +122,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

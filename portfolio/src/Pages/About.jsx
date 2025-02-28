@@ -40,3 +40,4 @@ const About = () => {
 
 export default About;
 
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

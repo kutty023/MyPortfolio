@@ -90,3 +90,5 @@ function Resume(){
 }
 
 export default Resume
+
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

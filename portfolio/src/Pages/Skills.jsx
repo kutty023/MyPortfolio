@@ -36,5 +36,4 @@ const Skills = () => {
 export default Skills;
 
 
-// , background: '#F4B675', height:'10px' 
-// style={{ paddingLeft: "50px"}}
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

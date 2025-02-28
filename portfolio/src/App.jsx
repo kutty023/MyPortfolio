@@ -6,6 +6,7 @@ import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Resume from './Pages/Resume';
+import Footer from './Components/Footer';
 import './Styles/Global.css';
 
 function App() {
@@ -19,8 +20,12 @@ function App() {
     <Resume />
     <Projects />
     <Contact />
+    <Footer />
     </>
   );
 }
 
 export default App;
+
+
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

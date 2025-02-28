@@ -64,3 +64,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

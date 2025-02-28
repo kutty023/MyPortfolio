@@ -54,3 +54,5 @@ function Project(){
 }
 
 export default Project
+
+// © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.

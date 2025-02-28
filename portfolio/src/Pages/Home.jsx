@@ -20,3 +20,5 @@ function Home() {
 }
 
 export default Home
+
+//  © 2025 Arthi. All rights reserved. Unauthorized copying prohibited.
