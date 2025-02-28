@@ -1,3 +1,121 @@
 #send-btn{
     padding: 5px 20px;
 }
+
+.contact{
+    width: 90%;
+    justify-self: center;
+}
+
+#contact-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 1rem;
+}
+
+.write-section{
+    padding-right: 2rem;
+    border-right: solid 2px var(--secondary-text-color);
+}
+
+.reach-section{
+    padding-left: 2rem;
+}
+
+.write-section>h4, .reach-section>h4{
+    font-weight: 400;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+
+.write-section>form>textarea, .write-section>form>input{
+    background: var(--primary-color);
+    border: solid 2px var(--secondary-text-color);
+    width: 300px;
+    margin: 10px 0px;
+}
+
+.write-section>form>input{
+    padding: 0px 10px;
+    border-radius: 50px;
+    height: 35px;
+}
+
+.write-section>form>textarea{
+    border-radius: 20px;
+    height: 100px;
+}
+
+.write-section>form>input::placeholder{
+    font-size: 10px;
+    padding: 10px 5px;
+}
+
+.write-section>form>textarea::placeholder{
+    padding: 15px;
+}
+
+#send-btn{
+    margin: 15px 0px;
+}
+
+#email-png ,#phone-number-png{
+    display: flex;
+    align-items: center;
+    color: var(--secondary-text-color);
+    padding: 10px 0px;
+    font-size: 15px;
+}
+
+#email-png>img ,#phone-number-png>img{
+    padding-right: 10px;
+}
+#connect-pngs{
+    padding-top: 10px;
+}
+#phone-number-png{
+    padding-bottom: 30px;
+}
+
+#connect-pngs>a{
+    padding-right: 10px;
+}
+
+.reach-section>p{
+    color: var(--secondary-text-color);
+}
+
+@media (max-width :680px){
+    #contact-sec{
+        display: block;
+        justify-items: flex-start;
+    }
+    .reach-section,.write-section{
+        padding: 0;
+        border: none;
+    } 
+    .write-section>form>textarea, .write-section>form>input{
+        width: 100%;
+    }
+    #email-png{
+        padding-bottom: 5px;
+    }
+    .reach-section, #email-png ,#phone-number-png{
+        font-size: 10px;
+    }
+    #email-png>img ,#phone-number-png>img ,#connect-pngs>a>img{
+        width: 30px;
+        height: auto;
+    }
+
+    .reach-section{
+        padding-top: 20px;
+    }
+
+    #send-btn{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+}

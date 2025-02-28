@@ -79,42 +79,14 @@ const Contact = () => {
                     <div className="write-section">
                         <h4>Write to me!</h4>
                         <form onSubmit={handleSubmit}>
-                            <label htmlFor="user_name">Name:</label>
-                            <input
-                                type="text"
-                                name="user_name"
-                                placeholder="Enter your name"
-                                required
-                                value={formData.user_name}
-                                onChange={handleChange}
-                            />
-                            <label htmlFor="user_email">Email:</label>
-                            <input
-                                type="email"
-                                name="user_email"
-                                placeholder="Enter your email"
-                                required
-                                value={formData.user_email}
-                                onChange={handleChange}
-                            />
-                            <label htmlFor="subject">Subject:</label>
-                            <input
-                                type="text"
-                                name="subject"
-                                placeholder="Subject"
-                                required
-                                value={formData.subject}
-                                onChange={handleChange}
-                            />
-                            <label htmlFor="message">Message:</label>
-                            <textarea
-                                name="message"
-                                placeholder="Your Message"
-                                required
-                                value={formData.message}
-                                onChange={handleChange}
-                            ></textarea>
-
+                            <input  type="text" name="user_name" placeholder="Enter your name" required value={formData.user_name} onChange={handleChange} />
+                             <br/>
+                            <input type="email" name="user_email" placeholder="Enter your email" required value={formData.user_email} onChange={handleChange} />
+                            <br/>
+                            <input type="text" name="subject" placeholder="Subject" required value={formData.subject} onChange={handleChange} />
+                            <br/>
+                            <textarea name="message" placeholder="Your Message" required value={formData.message} onChange={handleChange} ></textarea> 
+                            <br/>
                             <button id="send-btn" type="submit" disabled={loading}>
                                 {loading ? "Sending..." : "Send"}
                             </button>
@@ -122,7 +94,6 @@ const Contact = () => {
 
                         {status && <p className="status-message">{status}</p>}
                     </div>
-
                     {/* Contact Information */}
                     <div className="reach-section">
                         <h4>Reach out to me</h4>
