@@ -10,7 +10,7 @@ function Project(){
             github : "https://github.com/kutty023/Nove"
         },
         {
-            title : " MyPortfolio", desc : ["Designed a fully responsive and interactive personal portfolio which highlights my projects, expertise, certifications, etc, in a structured and visually appealing format. Implemented smooth scroll-based navigation, and optimized the layout for seamless mobile responsiveness ", "Tech Stack : HTML, CSS, JavaScript, React.js, Tailwind CSS, Render, Git, Figma"], github : "https://github.com/kutty023/MyPortfolio"
+            title : " MyPortfolio", desc : ["Designed a fully responsive and interactive personal portfolio which highlights my projects, expertise, certifications, etc, in a structured and visually appealing format. Implemented smooth scroll-based navigation, and optimized the layout for seamless mobile responsiveness ", "Tech Stack : HTML, CSS, JavaScript, React.js, CSS, Vercel, Git, Figma"], github : "https://github.com/kutty023/MyPortfolio"
         },
         {
             title : "OTP Generation", desc : ["This project showcases different Python-based OTP generation methods, ranging from basic pseudo-random generators to secure cryptographic and time-based OTPs", "Tech Stack : HTML, CSS, JavaScript, Flask, Fetch API (JS), Render, Gunicorn"], github : "https://github.com/kutty023/OTP-Generator"
