@@ -37,11 +37,14 @@
     padding: 0px 10px;
     border-radius: 50px;
     height: 35px;
+    color: #ffffff;
 }
 
 .write-section>form>textarea{
     border-radius: 20px;
     height: 100px;
+    padding: 10px;
+    color: #ffffff;
 }
 
 .write-section>form>input::placeholder{
@@ -49,9 +52,6 @@
     padding: 10px 5px;
 }
 
-.write-section>form>textarea::placeholder{
-    padding: 15px;
-}
 
 #send-btn{
     margin: 15px 0px;
