@@ -25,7 +25,7 @@ The portfolio is fully **responsive**, featuring smooth scroll-based navigation,
 ---
 
 ## 🌍 Live Demo  
-🔗 **Live Portfolio:** [View Here]
+🔗 **Live Portfolio:** [(https://my-portfolio-tau-three-89.vercel.app/)]
 
 ---
 

@@ -59,10 +59,10 @@ const Contact = () => {
     };
 
     const socialMediaLinks = [
-        { id: "insta-png", alt: "Instagram", src: insta, link: "https://instagram.com" },
-        { id: "github-png", alt: "GitHub", src: github, link: "https://github.com" },
-        { id: "linkedin-png", alt: "LinkedIn", src: linkedin, link: "https://linkedin.com" },
-        { id: "twitter-png", alt: "Twitter", src: twitter, link: "https://twitter.com" },
+        { id: "insta-png", alt: "Instagram", src: insta, link: "https://www.instagram.com/_chillax_rt/?hl=en" },
+        { id: "github-png", alt: "GitHub", src: github, link: "https://github.com/kutty023" },
+        { id: "linkedin-png", alt: "LinkedIn", src: linkedin, link: "https://www.linkedin.com/in/arthi-r-aa41b5191/" },
+        { id: "twitter-png", alt: "Twitter", src: twitter, link: "https://x.com/arthi_aaru" },
     ];
 
     return (
