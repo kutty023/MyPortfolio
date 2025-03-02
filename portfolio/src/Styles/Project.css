@@ -1,12 +1,11 @@
 #projects{
     width: 100%;
-    /* height: fit-content; */
 }
 
 #projects-sec{
-    display: grid;
-    grid-template-columns: 500px;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 3rem 2rem;
     justify-content: center;
 }
@@ -16,6 +15,10 @@
     background: var(--primary-color);
     height: fit-content;
     text-align: start;
+}
+
+.card-content{
+    list-style: none;
 }
 
 #know-more-btn{
