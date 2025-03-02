@@ -5,28 +5,24 @@ import '../Styles/Project.css';
 function Project(){
     const projectsData = [
         {
-            title : "Project 1", desc : "Description of Project 1", github : "https://github.com/kutty023/MyPortfolio"
+            title : "Nove", 
+            desc : ["Designed and developing a full-stack MERN application for novelists to post and engage with their original works, featuring likes, comments, sharing, and user interaction features.", <br/>,<strong>Tech Stack : </strong>, " Figma, React.js, Node.js, Express.js, MongoDB, Git, GitHub, VSCode"],
+            github : "https://github.com/kutty023/Nove"
         },
         {
-            title : "Project 2", desc : "Description of Project 2", github : "https://github.com/kutty023/MyPortfolio"
+            title : " MyPortfolio", desc : ["Designed a fully responsive and interactive personal portfolio which highlights my projects, expertise, certifications, etc, in a structured and visually appealing format. Implemented smooth scroll-based navigation, and optimized the layout for seamless mobile responsiveness ", <br />, <strong>Tech Stack : </strong>, "HTML, CSS, JavaScript, React.js, Tailwind CSS, Render, Git, Figma"], github : "https://github.com/kutty023/MyPortfolio"
         },
         {
-            title : "Project 3", desc : "Description of Project 3", github : "https://github.com/kutty023/MyPortfolio"
+            title : "OTP Generation", desc : ["This project showcases different Python-based OTP generation methods, ranging from basic pseudo-random generators to secure cryptographic and time-based OTPs.", <br />, <strong>Tech Stack : </strong>,"HTML, CSS, JavaScript, Flask, Fetch API (JS), Render, Gunicorn"], github : "https://github.com/kutty023/OTP-Generator"
         },
         {
-            title : "Project 4", desc : "Description of Project 4", github : "https://github.com/kutty023/MyPortfolio"
+            title : "Secure Data Hiding in Image Using Steganography", desc : "This project provides a secure method to hide and retrieve messages within images using steganography. It enables users to encrypt text messages inside images using a password and later decrypt them using the same password. The implementation includes both frontend and backend components to facilitate seamless encryption and decryption.", github : "https://github.com/kutty023/Secure-Data-Hiding-in-Image-Using-Steganography/tree/main/backend"
         },
         {
-            title : "Project 5", desc : "Description of Project 5", github : "https://github.com/kutty023/MyPortfolio"
+            title : "MyPortfolio", desc : "Designed the portfolio using figma", github : "https://www.figma.com/design/LoWLacffGNWbPrk5pyoMpT/Portfolio(Arthi)?t=7FAdGeGjIx6Uw8My-0"
         },
         {
-            title : "Project 6", desc : "Description of Project 6", github : "https://github.com/kutty023/MyPortfolio"
-        },
-        {
-            title : "Project 7", desc : "Description of Project 7", github : "https://github.com/kutty023/MyPortfolio"
-        },
-        {
-            title : "Project 8", desc : "Description of Project 8", github : "https://github.com/kutty023/MyPortfolio"
+            title : "Nove", desc : "Designing the website for the nove project", github : "https://www.figma.com/design/hun3pxApDFbHwlrRdvkAiX/Novelist?node-id=0-1&p=f&t=7FAdGeGjIx6Uw8My-0"
         },
     ];
     return (

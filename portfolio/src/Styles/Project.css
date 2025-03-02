@@ -24,10 +24,6 @@
 }
 
 @media (max-width: 680px) {
-    #projects-sec{
-        grid-template-columns: max-content;
-    }
-
     #know-more-btn{
         padding-top: 20px;
         width: 25px;

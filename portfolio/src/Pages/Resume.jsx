@@ -7,10 +7,12 @@ function Resume(){
           id: 1, 
           title: "AICTE Virtual Internship - Cybersecurity Program", 
           company: "Edunet Foundation",
-          date_and_location: "2019 - 2021, Bangalore",
+          date_and_location: "Jan 2025 - Feb 2025, Bangalore",
           desc: [
-            " - Gaining hands-on experience in cybersecurity concepts, ethical hacking, and network security.", <br />,
-            " - Working on real-world security projects, focusing on steganography, penetration testing, and threat mitigation."]
+            " - Gained foundational knowledge in cybersecurity, including offense and defense strategies.", <br />,
+            " - Explored key concepts such as cybersecurity fundamentals and threat landscapes.",
+            <br />,
+            " - Developed an Image Steganography project using Python, LSB, OpenCV, Flask, and deployed it on Render. Designed the frontend with HTML, CSS, and JavaScript.",]
         },
         {
           id: 2,

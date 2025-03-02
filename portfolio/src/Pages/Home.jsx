@@ -13,7 +13,7 @@ function Home() {
           <h3 id='home-wlcm'>Hi, I'm </h3> 
           <h1 id='home-name'> ARTHI R</h1>
           <p id='home-designation'>
-          Full-Stack Developer | CCNA | Security & Design
+          Full-Stack Developer | UI/UX Designer | Cybersecurity Enthusiast | CCNA Certified
           </p>
         </div>
       </section>

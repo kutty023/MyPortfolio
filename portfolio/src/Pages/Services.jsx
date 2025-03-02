@@ -7,10 +7,10 @@ function Services(){
       { title: "MERN Stack Developer", description: "Creating mobile applications using React Native and Flutter." },
       { title: "Front-End Developer", description: "Creating user interfaces and experiences" },
       { title: "UI/UX Design", description: "Specialization in MongoDB, Express.js, React.js, and Node.js development." },
-      { title: "Web Application Security Analyst", description: "Identifying and mitigating security vulnerabilities." },
-      { title: "CCNA ", description: "Cisco Certified Network Associate" },
+      // { title: "Web Application Security Analyst", description: "Identifying and mitigating security vulnerabilities." },
+      { title: "CCNA ", description: "Cisco Certified Network Associate - Network Rihnos" },
       { title: "Technical Mentor ", description: "Guiding and trained aspiring developers" },
-      { title: "Coding Instructor ", description: "Teaching programming and web development skills." },
+      // { title: "Coding Instructor ", description: "Teaching programming and web development skills." },
     ];
     
       return (
