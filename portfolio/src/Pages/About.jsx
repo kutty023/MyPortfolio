@@ -6,7 +6,7 @@ const About = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Arthi_CV';
+    link.href = '/Arthi_CV.pdf';
     link.download = 'Arthi_CV.pdf';
     document.body.appendChild(link);
     link.click();
