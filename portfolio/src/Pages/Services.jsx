@@ -4,13 +4,12 @@ import '../Styles/Services.css'
 function Services(){
     const servicesData = [
       { title: "Full-Stack Developer", description: "Designed, developed, and maintained web applications from front to back" },
-      { title: "MERN Stack Developer", description: "Creating mobile applications using React Native and Flutter." },
+      { title: "MERN Stack Developer", description: "Specialization in MongoDB, Express.js, React.js, and Node.js development." },
       { title: "Front-End Developer", description: "Creating user interfaces and experiences" },
-      { title: "UI/UX Design", description: "Specialization in MongoDB, Express.js, React.js, and Node.js development." },
+      { title: "UI/UX Design", description: "Designing user interfaces and experiences " },
       // { title: "Web Application Security Analyst", description: "Identifying and mitigating security vulnerabilities." },
       { title: "CCNA ", description: "Cisco Certified Network Associate - Network Rihnos" },
-      { title: "Technical Mentor ", description: "Guiding and trained aspiring developers" },
-      // { title: "Coding Instructor ", description: "Teaching programming and web development skills." },
+      { title: "Technical Mentor ", description: "Guiding and training aspiring developers" },
     ];
     
       return (
