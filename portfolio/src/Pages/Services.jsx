@@ -3,7 +3,7 @@ import '../Styles/Services.css'
 
 function Services(){
     const servicesData = [
-      { title: "Full-Stack Developer", description: "Designed, developed, and maintained web applications from front to back" },
+      { title: "Full-Stack Developer", description: "Design, develop, and maintainc web applications from front to back" },
       { title: "MERN Stack Developer", description: "Specialization in MongoDB, Express.js, React.js, and Node.js development." },
       { title: "Front-End Developer", description: "Creating user interfaces and experiences" },
       { title: "UI/UX Design", description: "Designing user interfaces and experiences " },
