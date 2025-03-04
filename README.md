@@ -10,7 +10,7 @@ The portfolio is fully **responsive**, featuring smooth scroll-based navigation,
 ## 🎨 Tech Stack  
 - **Frontend:** React.js, JavaScript, HTML, CSS  
 - **Design & UI/UX:** Figma  
-- **Deployment:** Render, GitHub Pages  
+- **Deployment:** Render, Vercel  
 - **Version Control:** Git, GitHub  
 
 ---
