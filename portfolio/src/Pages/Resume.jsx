@@ -5,38 +5,36 @@ function Resume() {
   const experienceData = [
     {
       id: 1, 
-      title: "AICTE Virtual Internship - Cybersecurity Program", 
-      company: "Edunet Foundation",
-      date_and_location: "Jan 2025 - Feb 2025, Bangalore",
+      title: "IT Engineer", 
+      company: "Desai Clothing Exports Pvt Ltd",
+      date_and_location: "June 2025 - Present, Bangalore",
       desc: [
-        "Gained foundational knowledge in cybersecurity, including offense and defense strategies.",
-        "Explored key concepts such as cybersecurity fundamentals and threat landscapes.",
-        "Developed an Image Steganography project using Python, LSB, OpenCV, Flask, and deployed it on Render. Designed the frontend with HTML, CSS, and JavaScript."
+        "Analyzed operational workflows, partnered with stakeholders to deliver scalable, technology-driven solutions",
+        "Designed and developed internal task and communication systems to improve visibility, coordination, and turnaround time.",
+        "Automated routine processes to reduce manual effort and enhance overall operational efficiency."
       ]
     },
     {
-      id: 2,
-      title: "Technical Mentor [FullStack developer]",
-      company: "Kalvium (RV University)",
-      date_and_location: "May 2023 - Aug 2024, Bangalore",
+      id: 2, 
+      title: "Web Developer", 
+      company: "Cappricio Securities",
+      date_and_location: "March 2025 - June 2025, Remote",
       desc: [
-        "Spearheaded 100+ live sessions and workshops, empowering students to build robust web applications and achieve a 90% improvement in project completion rates.",
-        "Evaluated 1500+ assignments, ensuring adherence to coding standards and improving code quality by 95%.",
-        "Trained 15+ technical mentors, enhancing team efficiency by 80% and boosting student satisfaction through streamlined mentoring practices.",
-        "Mentored 120+ students in Data Structures & Algorithms (DSA) and full-stack development, facilitating skill-building in Python, JavaScript, React.js, Node.js, and MongoDB."
+        "Designed and developed a responsive mobile web application using Figma, HTML, CSS, and JavaScript, ensuring usability, performance, and secure implementation."
       ]
     },
     {
       id: 3,
-      title: "Technical Mentor Intern [Front-end developer]",
+      title: "Technical Mentor",
       company: "Kalvium",
-      date_and_location: "Mar 2023 - April 2023, Coimbatore",
+      date_and_location: "Mar 2023 - Aug 2024, Bangalore",
       desc: [
-        "Guided 25+ students in front-end development, achieving an 85% improvement in project quality and code maintainability.",
-        "Engineered a WhatsApp automation system using Google Apps Script, streamlining communication workflows and reducing response times by 70%.",
-        "Led Scrum ceremonies for a team of 10 interns, ensuring 100% on-time project delivery and fostering a culture of collaboration and accountability."
+        "Led technical mentoring across UI/UX design, full-stack web development, DSA, and core programming fundamentals, ensuring industry-aligned skill development.",
+        "Reviewed and evaluated 100+ UI/UX design files and multiple full-stack projects, delivering actionable feedback on usability, design systems, and code quality.",
+        "Contributed to a WhatsApp automation solution that improved response efficiency.",
+        "Supported sprint coordination and team collaboration activities."
       ]
-    }
+    },
   ];
 
   const educationData = [

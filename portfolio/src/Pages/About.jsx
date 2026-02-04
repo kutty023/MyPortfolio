@@ -6,7 +6,7 @@ const About = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/FullstackDeveloper_Arthi_Resume.pdf';
+    link.href = '/Arthi.Resume.pdf';
     link.download = 'Arthi_CV.pdf';
     document.body.appendChild(link);
     link.click();
@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="about-content">
               <p className="about-description" >
-              Results-oriented Full-Stack Developer with a strong foundation in cybersecurity principles (CCNA certified). Proven ability to build robust and user-friendly web applications using the MERN stack, coupled with a keen understanding of network security and ethical hacking practices. Adept at problem-solving and dedicated to delivering high-quality, efficient solutions. Proficient in Python and committed to continuous learning, with a focus on building innovative and impactful web solutions that bridge the gap between development and security.
+              Front-end-focused Full Stack Engineer with hands-on experience designing, developing, and deploying scalable web applications and internal tools using MERN stack. Proven ability to analyze business requirements, architect user-centric UI/UX solutions, and implement secure, high-performance systems. Experienced mentor with expertise in design systems, accessibility, code quality, system fundamentals, and cross-functional collaboration.
               </p>
               <p className="language-skills"><strong>Languages : &nbsp; </strong>English, Kannada, Tamil, Hindi, Telugu </p>
               <button id='download-btn' onClick={handleDownload}>Download CV</button>
